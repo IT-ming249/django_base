@@ -13,8 +13,8 @@ def book_search_id(request):
 def book_search_detail_int(request,page):
     return HttpResponse("第{}页".format(page))
 
-def book_search_detail_str(request,page):
-    return HttpResponse("第{}页".format(page))
+def book_search_detail_str(request,page,name):
+    return HttpResponse("名为{},第{}页".format(name,page))
 
 def book_search_detail_slug(request,page):
     return HttpResponse("第{}页".format(page))

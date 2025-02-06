@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 
+def movie_index(request):
+    return HttpResponse("欢迎访问电影页")
 def movie_list(request):
     return HttpResponse("电影列表")
 
