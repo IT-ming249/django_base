@@ -60,5 +60,6 @@ urlpatterns = [
     path("book/path/<path:page>", views.book_search_detail_path, name = 'book_path'),
 
     #模块化导入：include方法导入movie相关的url, ↓表示所有movie/打头的url都去读取movie.urls中的path
-    path('movie/', include('movie.urls'))
+    path('movie/', include('movie.urls')),
+    path('frontLabel/', include('frontLabel.urls')),
 ]

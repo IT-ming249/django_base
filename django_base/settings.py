@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'movie',  #安装app
 ]
 
 MIDDLEWARE = [
@@ -53,9 +54,9 @@ ROOT_URLCONF = "django_base.urls"
 
 TEMPLATES = [
     {
-        "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR,"templates")],
-        "APP_DIRS": True,
+        "BACKEND": "django.template.backends.django.DjangoTemplates", #模板引擎
+        "DIRS": [os.path.join(BASE_DIR,"templates")],                 #配置模板文件夹，模板文件在这个文件夹下存储
+        "APP_DIRS": True,                                             #Ture 在安装app后可读取app下的templates内的模板文件
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.debug",
