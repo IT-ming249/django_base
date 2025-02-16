@@ -1,0 +1,10 @@
+{# include示例 这是一个组件模板 #}
+<div>
+    <h2>热门文章</h2>
+    <ul>
+        {# 组件模板可以适用传到主模板的数据 #}
+        {% for paper in papers %}
+            <li>{{ paper }}</li>
+        {% endfor %}
+    </ul>
+</div>

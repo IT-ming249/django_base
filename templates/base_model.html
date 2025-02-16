@@ -1,0 +1,22 @@
+{# 这是一个父模板 #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% block header %}{% endblock %}
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="/">首页</a></li>
+    </ul>
+</header>
+
+{% block body %}
+    父模板中的一些内容
+{% endblock %}
+
+<footer>这是尾部模板</footer>
+</body>
+</html>

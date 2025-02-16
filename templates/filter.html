@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用过滤器</title>
+</head>
+<body>
+过滤器依赖管道符
+<p>1.cut过滤器移除所有指定字符串↓</p>
+<p>{{ greet | cut:"," }}</p>
+<p>2.date过滤器将一个日期按照指定格式，格式化成字符串↓</p>
+<p>日期:{{ date | date:"Y年m/d" }}</p>
+<p>3.default过滤器，处理被评估为false的值，default_if_none处理评估为None的值↓</p>
+<p>个性签名：{{ profile | default:"这里什么都没有" }}</p>
+<p>剩下的用到啥查啥</p>
+</body>
+</html>

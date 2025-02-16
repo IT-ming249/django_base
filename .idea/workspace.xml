@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6325a576-56a9-47d4-ad55-900b5440d68a" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hotpaper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/paper_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/with.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontLabel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontLabel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontLabel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontLabel/views.py" afterDir="false" />
@@ -114,7 +120,7 @@
       <workItem from="1738827087768" duration="6417000" />
       <workItem from="1739190221303" duration="1037000" />
       <workItem from="1739415903708" duration="14192000" />
-      <workItem from="1739698956759" duration="777000" />
+      <workItem from="1739698956759" duration="7955000" />
     </task>
     <servers />
   </component>

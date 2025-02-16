@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>url标签</title>
+</head>
+<body>
+<a href="{% url 'frontLabel:if_label' %}">if标签</a>
+<a href="{% url 'frontLabel:for_in_label' %}">for_in标签</a>
+{# url标签可以直接在后面传递参数,查询字符串的参数需要手动拼接 #}
+<a href="{% url 'movie:movie_detail' movie_id=1 %}">电影</a>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends "base_model.html" %}
+{# entends继承模板，extends必须放在第一行，若要添加自己的信息，则在父模板中的block中添加#}
+{% block title %}
+	首页
+{% endblock %}
+{% block body %}
+	{% include "hotpaper.html" %}
+    {# block.super直接继承父模板中的一些内容 #}
+    {{ block.super }}
+{% endblock %}
