@@ -10,4 +10,5 @@ urlpatterns = [
     path("url",views.url_label,name='url_label'),
     path("filter",views.filter,name='filter'),
     path("pindex",views.include_html_model,name='pindex'),
+    path("sta",views.static_example,name='static'),
 ]

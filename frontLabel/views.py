@@ -58,3 +58,6 @@ def include_html_model(request):
         "papers":["IMM","CCP","SDR"],
     }
     return render(request,"paper_index.html",context=context)
+
+def static_example(request):
+    return render(request,"static.html")

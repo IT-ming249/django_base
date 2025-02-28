@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6325a576-56a9-47d4-ad55-900b5440d68a" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base_model.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hotpaper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/paper_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/with.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/static.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_base/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_base/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontLabel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontLabel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontLabel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontLabel/views.py" afterDir="false" />
     </list>
@@ -28,6 +26,8 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,23 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/for_python/Python_project/Django_frame/base_pro/django_base&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/for_py/Flask_pro_new",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="django_base" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_base" />
@@ -121,6 +123,8 @@
       <workItem from="1739190221303" duration="1037000" />
       <workItem from="1739415903708" duration="14192000" />
       <workItem from="1739698956759" duration="7955000" />
+      <workItem from="1740030013957" duration="6637000" />
+      <workItem from="1740105357407" duration="7676000" />
     </task>
     <servers />
   </component>

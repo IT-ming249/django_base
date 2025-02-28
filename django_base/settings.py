@@ -64,6 +64,8 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
             ],
+            #加入下面这行，html中可以省略{% load static%}
+            'builtins':["django.templatetags.static"]
         },
     },
 ]
@@ -117,6 +119,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+#设置静态文件存放路径↓
+STATICFILES_DIRS =[
+  BASE_DIR/'static'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
