@@ -76,10 +76,21 @@ WSGI_APPLICATION = "django_base.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+#修改数据库设置
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        #引擎，eg:mysql/sqlite3/postgresql
+        "ENGINE": "django.db.backends.mysql",
+        #数据库名
+        "NAME": "database_demo",
+        #连接数据库的用户名
+        "USER": "root",
+        #密码
+        "PASSWORD": "SQL123",
+        #主机地址
+        "HOST": "127.0.0.1",
+        #端口号
+        "PORT": "3306",
     }
 }
 

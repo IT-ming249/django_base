@@ -19,6 +19,8 @@ from django.urls import path, include ,reverse
 from django.http import HttpResponse
 from book import views
 from django.shortcuts import render
+#数据库连接相关依赖
+from django.db import connection
 
 #定义一个简单的视图函数
 def index(request):
@@ -32,9 +34,19 @@ def index(request):
     #print(reverse('book') + '?id=1')
 
     #命名空间下的路由反转
-    print(reverse("movie:movie_index"))
+    #print(reverse("movie:movie_index"))
     #print(reverse('movie:movie_list'))
     #print(reverse('movie:movie_detail', kwargs={'movie_id':1}))
+
+    ##测试数据库连接
+    #获取游标对象
+    cursor = connection.cursor()
+    #拿到游标后执行SQL语句
+    cursor.execute("select * from book")
+    #获取所有数据
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
     return render(request, "index.html")
 """
 path函数
