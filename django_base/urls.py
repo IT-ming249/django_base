@@ -19,7 +19,7 @@ from django.urls import path, include ,reverse
 from django.http import HttpResponse
 from book import views
 from django.shortcuts import render
-#数据库连接相关依赖
+#数据库连接相关依赖↓
 from django.db import connection
 
 #定义一个简单的视图函数
