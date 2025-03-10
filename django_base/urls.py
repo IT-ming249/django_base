@@ -39,6 +39,7 @@ def index(request):
     #print(reverse('movie:movie_detail', kwargs={'movie_id':1}))
 
     ##测试数据库连接
+    """"
     #获取游标对象
     cursor = connection.cursor()
     #拿到游标后执行SQL语句
@@ -47,6 +48,7 @@ def index(request):
     rows = cursor.fetchall()
     for row in rows:
         print(row)
+    """
     return render(request, "index.html")
 """
 path函数
@@ -70,6 +72,11 @@ urlpatterns = [
     path("book/str/<name>/<int:page>", views.book_search_detail_str, name = 'book_str'),
     path("book/slug/<slug:page>", views.book_search_detail_slug, name = 'book_slug'),
     path("book/path/<path:page>", views.book_search_detail_path, name = 'book_path'),
+    path("book/add",views.add_book, name = 'book_add'),
+    path("book/query",views.query_book, name = 'book_query'),
+    path("book/order",views.order_view, name = 'book_order'),
+    path("book/modify",views.modify_book, name = 'book_modify'),
+    path("book/delete",views.delete_book, name = 'book_delete'),
 
     #模块化导入：include方法导入movie相关的url, ↓表示所有movie/打头的url都去读取movie.urls中的path
     path('movie/', include('movie.urls')),

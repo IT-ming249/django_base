@@ -6,3 +6,4 @@ class Book(models.Model):
     author = models.CharField(max_length=20,null=False)
     pub_time = models.DateTimeField(auto_now_add=True) #自动获取当前时间并赋值
     price = models.FloatField(default=0)
+
