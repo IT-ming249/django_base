@@ -64,21 +64,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # http://127.0.0.1:8000/s  访问index视图函数 ↓
     path("",index, name = 'index'),
-    #↓是book这个app的url，未模块化
-    #http://127.0.0.1:8000/book?id=3&name=mm ↓
-    path("book", views.book_search_id, name = 'book'),
-    #http://127.0.0.1:8000/book/1 ↓
-    path("book/int/<int:page>", views.book_search_detail_int, name = 'book_int'),
-    path("book/str/<name>/<int:page>", views.book_search_detail_str, name = 'book_str'),
-    path("book/slug/<slug:page>", views.book_search_detail_slug, name = 'book_slug'),
-    path("book/path/<path:page>", views.book_search_detail_path, name = 'book_path'),
-    path("book/add",views.add_book, name = 'book_add'),
-    path("book/query",views.query_book, name = 'book_query'),
-    path("book/order",views.order_view, name = 'book_order'),
-    path("book/modify",views.modify_book, name = 'book_modify'),
-    path("book/delete",views.delete_book, name = 'book_delete'),
-
     #模块化导入：include方法导入movie相关的url, ↓表示所有movie/打头的url都去读取movie.urls中的path
+    path("book/", include("book.urls")),
     path('movie/', include('movie.urls')),
     path('frontLabel/', include('frontLabel.urls')),
 ]
