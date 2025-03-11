@@ -68,4 +68,5 @@ urlpatterns = [
     path("book/", include("book.urls")),
     path('movie/', include('movie.urls')),
     path('frontLabel/', include('frontLabel.urls')),
+    path("article/", include('article.urls')),
 ]
