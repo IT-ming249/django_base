@@ -16,7 +16,8 @@ class Article(models.Model):
     tags = models.ManyToManyField("Tag", related_name="articles")#多对多限制的外键ManyToManyField(本质上是定义了一个中间表)
     #定义外键
     author = models.ForeignKey("User", on_delete=models.CASCADE,related_name="articles") #外键 级联
-
+    #在已有数据的情况下添加新的列，需要设置null=True或默认值↓
+    pub_time = models.DateTimeField(auto_now_add=True, null=True)
 class Tag(models.Model):
     name = models.CharField(max_length=20)
 

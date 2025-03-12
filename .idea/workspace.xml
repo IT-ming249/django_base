@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6325a576-56a9-47d4-ad55-900b5440d68a" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/sale/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_base/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_base/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_base/urls.py" afterDir="false" />
     </list>
@@ -51,7 +55,7 @@
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/for_py/剑指offer",
+    "last_opened_file_path": "D:/for_py/Django_base/django_base",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -152,7 +156,8 @@
       <workItem from="1740105357407" duration="17618000" />
       <workItem from="1741166104688" duration="1320000" />
       <workItem from="1741243433449" duration="1768000" />
-      <workItem from="1741315025674" duration="39583000" />
+      <workItem from="1741315025674" duration="45739000" />
+      <workItem from="1741747063170" duration="7515000" />
     </task>
     <servers />
   </component>

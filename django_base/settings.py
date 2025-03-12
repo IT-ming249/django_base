@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "book", #安装app,以识别models
     "movie",  #安装app
     "article",
+    "sale",
 ]
 
 MIDDLEWARE = [
