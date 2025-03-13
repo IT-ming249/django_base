@@ -70,4 +70,5 @@ urlpatterns = [
     path('frontLabel/', include('frontLabel.urls')),
     path("article/", include('article.urls')),
     path("sale/", include('sale.urls')),
+    path("form/",include('form_demo.urls'))
 ]
