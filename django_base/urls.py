@@ -70,5 +70,7 @@ urlpatterns = [
     path('frontLabel/', include('frontLabel.urls')),
     path("article/", include('article.urls')),
     path("sale/", include('sale.urls')),
-    path("form/",include('form_demo.urls'))
+    path("form/",include('form_demo.urls')),
+    path("cook_session/",include("cookie_session_demo.urls")),
+    path("csrf/",include("csrf_demo.urls")),
 ]
